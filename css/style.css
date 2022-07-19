@@ -1,0 +1,438 @@
+#header1st{
+   width: 100%;
+   background-color: #223645;
+}
+#header1st .contaner{
+   width: 100%;
+   justify-content: space-between;
+   /* margin: 10px 0px; */
+}
+.socials{
+   width: 40%;
+   justify-content: space-around;
+   
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+.list{
+   list-style: none;
+}
+.phone{
+   justify-content: end;
+   /* padding-left: px; */
+   margin-left: 150px;
+}
+.secoundheader{
+   justify-content: space-between;
+   position: relative;
+}
+.secoundheader .images1{
+   position: absolute;
+   left:40%;
+   /* bottom: 5px; */
+
+}
+.secoundheader .fdx{
+   display: flex;
+   justify-content: space-around;
+}
+.secoundheader .fdx li{
+   list-style: none;
+   margin: 20px 18px;
+   font-size: large;
+   font-weight: 500;
+}
+.brd{
+   border-left: 1px solid rgba(0, 0, 0, 0.637);
+   width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.fdx li{
+   width: 100%;
+   height: 2rem;
+   
+}
+.fdx li a:hover{
+   
+   color: red;
+   background-color: rgba(0, 0, 0, 0.342);
+}
+#secpage .contaner .row .col-6 .heading h6{
+   color: rgba(0, 0, 0, 0.596);
+}
+#secpage .contaner .row .col-6 .heading h1{
+ font-size: 3.8em;
+ font-weight: bold;
+}
+#secpage .contaner .row{
+   
+   padding: 270px 70px;
+   
+}
+#secpage .contaner{
+   width: 100%;
+   height:44rem;
+   background-image: url("../images/b-bg.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.all .exam{
+   width: 25%;
+   height: 5rem;
+   text-align: center;
+
+}
+.all{
+   width: 100%;
+   padding-top: 331px;
+}
+.third{
+ background-color: #223645 ; 
+ height: 5rem;
+}
+.list2{
+   justify-content: space-between;
+   width: 80%;
+}
+
+   .list2 .links a{
+      height: 4rem;
+      margin: 10px 30px;
+
+   }
+.list2 .links .span3{
+   /* margin: 0px 40px; */
+}
+.list2 .links{
+   height: 3rem;
+   width: 45%;
+   
+}
+.h10{
+   border-top: 1px solid red;
+}
+.ten{
+   font-size: 150px;
+   font-weight: 600;
+   padding-top: 15px;
+}
+.ourh{
+   margin-top: 20px;
+   font-size: 14px;
+    font-weight: 700;
+    max-width: 60px;
+    color: #223645;
+    display: inline-block;
+    font-family: "Poppins";
+}
+.years{
+   font-size: 22px;
+    font-weight: 100;
+    max-width: 130px;
+    color: #223645;
+    display: inline-block;
+}
+.short{
+   margin:50px 20px;
+}
+.shortstory{
+   font-size: 50px;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #223645;
+    padding-bottom: 25px;
+    width: 60%;
+}
+.hospital{
+   line-height: 1.75;
+   font-size: 1.3em;
+   color: rgba(0, 0, 0, 0.62);
+}
+.fxx{
+   list-style: none;
+   color: rgba(0, 0, 0, 0.62);
+
+}
+#pe1{
+   display: flex;
+   justify-content: space-between;
+   
+}
+/* four page start */
+#fourpage{
+   background-color: #f1f7fb;
+}
+#fourpage .container{
+   /* background-color: #f1f7fb; */
+   margin-top: 20px;
+   height: 40rem;
+}
+#fourpage .container  .yy{
+   
+}
+#fourpage .container .services{
+   padding: 60px 0px ;
+   text-align: center;
+   position: relative;
+   z-index: 2;
+   
+}
+
+#fourpage .container .services .title-ser{
+   position: absolute;
+   left: 0;
+    right: 0;
+    top: 1px;
+    z-index: -1;
+    line-height: 1;
+    color: #e9eff4c9;
+    font-weight: 600;
+    font-size: 200px;
+    font-family: "Poppins";
+ }
+
+#fourpage .container .services h2{ 
+   font-size: 48px;
+   padding-top: 5px;
+   font-weight: 600;
+   color: #223645;
+   
+}
+.para{
+   color: rgba(0, 0, 0, 0.637);
+}
+#fourpage .sliders a:hover{
+   color: rgba(0, 0, 0, 0.596);
+}
+#fourpage .sliders .dot1{
+   height: 6px;
+    width: 24px;
+    margin: 0px 5px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #6f6f6f;
+    transition: 0.3s all
+}
+
+/* four page End */
+
+/* fifth page start */
+
+.sixthpage{
+   background-image: url("../images/cta-bg.jpg");
+   height: 40rem;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.sixthpage .redc{
+   background-color: rgba(220, 20, 60, 0.753);
+
+}
+.sixthpage .container{
+   
+   height: 40rem;
+   width: 100%;
+}
+.sixthpage .container .ulist .list1 li{
+   list-style: none;
+}
+.form22{
+   background-color: white;
+}
+.formg{
+   height: 35rem;
+}
+/* fifth page end */
+
+
+
+/* sixth page start */
+.pagesev .header{
+   text-align: center;
+   position: relative;
+   z-index: 2;
+}
+.pagesev .header h1{
+   font-weight: 700;
+}
+.team{
+   position: absolute;
+   left: 0;
+    right: 0;
+    top: -60px;
+    z-index: -1;
+    line-height: 1;
+    color: #e9eff4;
+    font-weight: 600;
+    font-size: 200px;
+    font-family: "Poppins";
+}
+/* sixth page end */
+
+/* seven page start  */
+#sevenpage .start{
+   
+   background-color: #f1f7fb;
+   margin: 30px 0px;
+}
+#sevenpage .container {
+   
+}
+.spacing{
+   letter-spacing: 3px;
+}
+.e01{
+   display: flex;
+}
+.hww{
+   font-size: 58px;
+   padding-top: 5px;
+   font-weight: 700;
+}
+.num{
+   width: 50px;
+   height: 50px;
+   background: rgb(230, 14, 14);
+   border-radius: 50%;
+}
+.e01 .text{
+   width: 90%;
+}
+.e01 a:hover{
+   color: black;
+}
+#sevenpage .container .image{
+   box-shadow: -70px 0 5px -5px rgba(238, 10, 10, 0.829);
+}
+/* seven page end */
+/* eight page start  */
+.forcolor{
+   background-color: #223645;
+}
+#calltoday .containar{
+   height: 17rem;
+   margin: 0px;
+}
+#calltoday .containar .ai{
+   width: 200px;
+   height: 60px;
+}
+#calltoday .containar .watch{
+   display: flex;
+   justify-content: end;
+}
+#calltoday .containar .padd{
+   padding: 85px 0px;
+}
+
+/* eight page end  */
+
+/* nine page start  */
+#healthcity{
+background-color: #70808c;
+}
+#healthcity .container .gggg .hhh{
+   margin: 0px auto;
+   width: 50%;
+   padding: 114px 0px;
+   height: 20rem;
+
+}
+#healthcity .container .gggg
+{
+   /* display: flex; */
+   /* justify-content: center; */
+   height: 20rem;
+   margin: 0px 40px;
+   background-image: url("../images/ft1.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   /* opacity: 0.5; */
+   /* filter: brightness(50%); */
+}
+/* nine page end  */
+/* ten page Start  */
+
+#tenpage .image2{
+   position: relative;
+   z-index: -1;
+}
+.card10{
+   position: absolute;
+   /* left: 0; */
+   /* right: 0; */
+    top: -8;
+    z-index: 1;
+   margin: -60px 20px;
+   width: 32%;
+   height: 15rem;
+}
+.curr10{
+   font-size: 14px;
+    color: #ffd6e0;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+}
+/* ten page end  */
+
+/* eleven page start */
+.pageev{
+   background-color: #f1f7fb;
+   
+}
+.cccc{
+   position: relative;
+   z-index: 2;
+   margin-top: 30px;
+}
+.news{
+   position: absolute;
+   left: 0;
+    right: 0;
+    top: -17px;
+    z-index: -1;
+    line-height: 1;
+    color: #e9eff4;
+    font-weight: 600;
+    font-size: 200px;
+    font-family: "Poppins";
+}
+.header11{
+   margin: 20px 0px;
+}
+/* eleven page end */
+
+/* page 12 starat  */
+.main12{
+   height: 12rem;
+   background-color: #e12454;
+}
+/* page 12 end */
+/* footer */
+.footer{
+   background-image: url("../images/f-bg.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.footer .container .dff li{
+   list-style: none;
+}
+.footer .container .aff li{
+  list-style: none;
+  padding-top: 10px;
+}
+.footer .container .btn button{
+  background-color: crimson;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+.footer .container .box{
+  border-bottom: 3px solid red;
+}
